@@ -1,0 +1,55 @@
+.lg-image {
+
+}
+.lg-image--technology {
+    width: 60%;
+    margin: 24px 0 0 0;
+    @include desktop() {
+        width: 400px;
+        margin: 0;
+    }
+}
+.lg-image--drug-metabolism {
+    width: 150px;;
+    margin: 36px auto;
+    @include desktop() {
+        width: 200px;
+        margin: 65px 0;
+    }
+}
+.lg-image--drug-metabolism-costs {
+    width: 36px;
+    @include desktop() {
+        width: 50px;
+    }
+}
+.lg-image--pgs {
+    width: 100%;
+    margin: 36px 0;
+    @include desktop() {
+        width: 500px;
+        margin: 65px 0;
+    }
+}
+.lg-image--determine-10 {
+    width: 100%;
+    margin: 36px 0;
+    @include desktop() {
+        width: 400px;
+        margin: 65px 0;
+    }
+}
+.lg-image--determine-10-what {
+    width: 160px;
+    margin: 0;
+    @include desktop() {
+        width: 150px;
+        margin: 0;
+    }
+}
+.lg-image--report {
+    width: 100%;
+    @include desktop() {
+        width: 450px;
+    }
+}

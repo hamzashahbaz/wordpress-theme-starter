@@ -1,0 +1,195 @@
+.lg-resources__hero {
+    background-color: #131313;
+    padding: 200px 20px;
+    display: flex;
+    justify-content: flex-start;
+    @include desktop() {
+        justify-content: center;
+    }
+}
+.lg-resources__hero_container {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    @include desktop() {
+        align-items: center;
+        justify-content: center;
+    }
+}
+.lg-resources__hero_title {
+    font-family: 'Assistant';
+    font-weight: 300;
+    font-size: 2.75rem;
+    display: flex;
+    align-items: center;
+    color: #F4F7F9;
+    margin: 0 0 40px 0;
+    width: 75%;
+    text-align: left;
+    @include desktop() {
+        text-align: center;
+        font-size: 48px;
+    }
+}
+.lg-resources__blog-post {
+    width: 100%;
+    background-color: #FFF;
+    padding: 124px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @include desktop() {
+        padding: 124px 20px;
+    }
+}
+.lg-blog-posts {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    @include desktop() {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.lg-resources__blog-post_container {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    flex-direction: column;
+    @include desktop() {
+        width: 75%;
+        align-items: center;
+    }
+}
+.lg-blog-posts__menu {
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0 0 36px;
+    
+    @include desktop() {
+        align-items: center;
+        justify-content: center;
+        margin: 0 0 48px;
+    }
+}
+.lg-blog-posts__menu-item {
+    margin: 0 24px 32px 0;
+    &:last-child {
+        margin: 0 0 0 0;
+    }
+    a {
+        text-decoration: none;
+        color: #131313;
+        padding: 8px 10px;
+        border-radius: 10px;
+        background-color: #F5F5F5;
+        font-size: 1rem;
+    }
+    @include desktop() {
+        margin: 0 24px 0 0;
+        &:last-child {
+            margin: 0 0 0 0;
+        }
+    }
+}
+.lg-blog-posts__menu-item--active {
+    background-color: $secondary !important;
+    color: white !important;
+}
+.lg-resources__blog-post_card {
+    background-color: #FFF;
+    height: 440px;
+    width: 100%;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    margin: 24px 0;
+    position: relative;
+    box-sizing: border-box;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    @include desktop() {
+        margin: 24px 24px;
+        height: 480px;
+        width: calc((100%/3) - 24px);
+    }
+}
+.lg-blog-posts__content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    @include desktop() {
+        width: 100%;
+    }
+}
+.lg-blog-posts__pagination {
+    span {
+        color: $secondary;
+        margin-right: 10px;
+    }
+    a {
+        color: gray;
+        text-decoration: none;
+        margin-right: 10px;
+    }
+    font-size: 1.25rem;
+    margin: 48px 0 0 0;
+}
+
+.lg-resources__blog-post_card-img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.lg-resources__blog-post_card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    flex: 1;
+}
+.lg-resources__blog-post_card-header {
+    justify-content: flex-start;
+}
+.lg-resources__blog-post_card-title {
+    font-size: 20px;
+    line-height: 136.5%;
+    display: flex;
+    align-items: center;
+    color: #1F2E4E;
+    text-decoration: none;
+}
+.lg-resources__blog-post_card-footer {
+    display: flex;
+    justify-content: space-between;
+}
+.lg-resources__blog-post_card-category {
+    color: #BBBBBB;
+    font-size: 16px;
+    font-family: 'Assistant';
+    font-weight: 400;
+}
+.lg-resources__blog-post_card-link {
+    color: #7473DF;
+    font-size: 18px;
+    font-family: 'Assistant';
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 125%;
+    img {
+        width: 18px;
+        margin-left: 5px;
+    }
+}
+

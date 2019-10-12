@@ -1,0 +1,96 @@
+/***** Featured Blog ****/
+.lg-featured__featured-blogs {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 30px;
+    @include desktop() {
+        padding: 150px 0;
+    }
+    
+}
+.lg-featured__featured-blogs_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lg-featured__blog-post_cards {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    @include desktop() {
+        flex-direction: row;
+    }
+}
+.lg-featured__blog-post_card {
+    background-color: #FFF;
+    height: 420px;
+    width: 100%;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    margin: 24px 0;
+    position: relative;
+    box-sizing: border-box;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    @include desktop() {
+        margin: 24px;
+        width: 420px;
+    }
+}
+.lg-featured__blog-post_card-img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    @include desktop() {
+        width: 100%;
+    }
+}
+.lg-featured__blog-post_card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    flex: 1;
+}
+.lg-featured__blog-post_card-header {
+    justify-content: flex-start;
+}
+.lg-featured__blog-post_card-title {
+    font-size: 20px;
+    line-height: 136.5%;
+    display: flex;
+    align-items: center;
+    color: #1F2E4E;
+    text-decoration: none;
+}
+.lg-featured__blog-post_card-footer {
+    display: flex;
+    justify-content: space-between;
+}
+.lg-featured__blog-post_card-category {
+    color: #BBBBBB;
+    font-size: 16px;
+    font-family: 'Assistant';
+    font-weight: 400;
+}
+.lg-featured__blog-post_card-link {
+    color: #7473DF;
+    font-size: 18px;
+    font-family: 'Assistant';
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 125%;
+    img {
+        width: 18px;
+        margin-left: 5px;
+    }
+}

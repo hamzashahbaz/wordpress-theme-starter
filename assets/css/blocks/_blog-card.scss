@@ -1,0 +1,74 @@
+/*** Single Blog Post ***/
+.blog-post {
+    background-color: #FFFFFF;
+}
+.blog-post__heading {
+    font-family: Gotham;
+    font-size: 48px;
+    line-height: 154%;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    color: #F4F7F9;
+    margin-bottom: 40px;
+}
+.blog-post__title {
+    font-family: Gotham;
+    font-size: 48px;
+    line-height: 136.5%;
+    display: flex;
+    align-items: center;
+    color: #F4F7F9;
+}
+.blog-post__content {
+    font-family: Gotham;
+    font-size: 18px;
+    line-height: 136.5%;
+    padding: 40px 0px;
+}
+/**** Blogs ****/
+.blog-post__cards {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.blog-post__card {
+    background-color: #FFF;
+    height: 300px;
+    width: 300px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    margin-bottom: 24px;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.blog-post__card-header {
+    font-family: Gotham;
+    font-size: 10px;
+    line-height: 11px;
+    letter-spacing: 0.26em;
+    color: #6E6E6E;
+}
+.blog-post__card-date {
+    font-family: Gotham;
+    font-size: 10px;
+    line-height: 11px;
+    color: #6E6E6E;
+    margin: 0 0 10px 0;
+}
+.blog-post__card-title {
+    font-family: Gotham;
+    font-size: 32px;
+    line-height: 42px;
+    color: #F4F7F9;
+}
+.blog-post__card-link {
+    font-size: 18px;
+    line-height: 154%;
+    color: #F4F7F9;
+    text-align: right;
+    cursor: pointer;
+}

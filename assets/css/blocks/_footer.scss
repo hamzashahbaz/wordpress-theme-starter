@@ -1,0 +1,114 @@
+/****** Footer ****/
+.footer {
+    background-color: #212134;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    padding: 36px 30px;
+    @include desktop() {
+        padding: 100px 0px;
+    }
+}
+.footer__container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    @include desktop() {
+        flex-direction: row;
+        width: 980px;
+    }
+}
+.footer__copy {
+    width: 100%;
+    @include desktop() {
+        width: 50%;
+    }
+}
+.footer__nav {
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    width: 100%;
+    border-top: 1px solid #49495A;
+    border-bottom: 1px solid #49495A;
+    padding: 36px 0;
+    margin: 36px 0;
+    @include desktop() {
+        border-top: none;
+        border-bottom: none;
+        border-left: 1px solid #49495A;
+        border-right: 1px solid #49495A;
+        width: 50%;
+        padding: 0px 0 0 60px;
+        margin: 0;
+    }
+}
+.footer__nav-item {
+    margin: 8px 0px;
+    color: #FFFFFF;
+    text-decoration: none;
+    &:first-child {
+        padding-left: 0px; 
+    }
+    img {
+        margin-left: 5px;
+    }
+    font-size: 1rem;
+    @include desktop() {
+        margin: 8px 0px;
+        font-size: 1.25rem;
+    }
+}
+.footer__logo {
+    width: 44px;
+    @include desktop() {
+        width: 80px;
+    }
+}
+.footer__mission {
+    color: #DEDEDE;
+    font-size: 1rem;
+    width: 90%;
+    margin:20px 0 20px 0;
+    @include desktop() {
+        font-size: 18px;
+    }
+}
+.footer__copyrights {
+    color: #9494A1;
+    font-size: 0.75rem;
+    @include desktop() {
+        font-size: 14px;
+    }
+}
+.footer__contact {
+    width: 100%;
+    padding: 0;
+    @include desktop() {
+        width: 50%;
+        padding: 0px 0 0 60px;
+    }
+    
+}
+.footer__contact_title {
+    color: #7372DD;
+    margin: 0 0 15px;
+    font-weight: 600;
+    font-size: 1.25rem;
+    @include desktop() {
+        font-size: 1.5rem;
+    }
+}
+.footer__contact_item {
+    padding: 0px;
+    text-decoration: none;
+    color: #FFF;
+    margin: 16px 0;
+    font-size: 1rem;
+    @include desktop() {
+        font-size: 1.25rem;
+    }
+}

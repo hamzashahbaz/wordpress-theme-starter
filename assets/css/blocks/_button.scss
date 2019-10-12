@@ -1,0 +1,33 @@
+.lg-button {
+    background: $secondary;
+    font-weight: 500;
+    padding: 14px 24px;
+    border: none;
+    outline: none;
+    color: $secondary-invert;
+    border-radius: 50px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.25s ease;
+    text-decoration: none;
+    box-sizing: border-box;
+    img {
+        margin-left: 10px;
+    }
+    @include desktop() {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px;
+        width: 200px;
+        //margin: 0 auto;
+        padding: 15px 20px;
+        &:hover { 
+            transform: scale(1.1); 
+        }
+    }
+}
+
+.lg-button--secondary {
+    background: #212134;
+}

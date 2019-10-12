@@ -1,0 +1,21 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css?family=Assistant:200,300,400,600,800");
+@import 'variables';
+@import 'base';
+@import 'mixins';
+@import 'blocks/all';
+
+.lg-bordered {
+    @include desktop() {
+        height: 200px;
+        width: 2px;
+        background-color: #D5D5D5;
+        margin: 0px 100px;
+    }
+}
+.lg-heading {
+    width: 100;
+    @include desktop() {
+        width: 75%;
+    }
+}

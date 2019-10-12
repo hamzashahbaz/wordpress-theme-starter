@@ -1,0 +1,51 @@
+.lg-determine-10__why_tables {
+    margin: 100px 0;
+    width: 100%;
+    @include desktop() {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.lg-determine-10__why_list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lg-determine-10__why_list-item {
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 10px 0px 10px;
+    padding: 18px 24px;
+    @include desktop() {
+        font-size: 1.1rem;
+        width: 430px;
+        height: 80px;
+        display: flex;
+        align-items: center;
+    }
+}
+.lg-determine-10__why_list-item--end {
+    justify-content: flex-end;
+}
+.lg-determine-10__why_list-item--start {
+    justify-content: flex-start;
+}
+.lg-determine-10__why_list-item--right {
+    text-align: right;
+    background-color: #7473DF;
+}
+.lg-determine-10__why_list-item--left {
+    text-align: left;
+    background-color: #2A2A58;
+}
+.lg-determine-10__why_list-item--light {
+    background-color: #313157 !important;
+}
+.lg-determine-10__why_list-item--dark {
+    background-color: #22223B !important;
+}

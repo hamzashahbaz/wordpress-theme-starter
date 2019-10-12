@@ -1,0 +1,34 @@
+.lg-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 54px 0 0;
+    @include desktop() {
+        width: 100%;
+        flex-direction: row;
+        margin: 50px auto 0;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+.lg-box__item {
+    width: 100%;
+    color: #7473DF;
+    padding: 24px 44px;
+    border: 1px solid #49495A;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    @include desktop() {
+        width: calc(100%/3);
+        padding: 20px 80px;
+        font-size: 1.1rem;
+    }
+}
+.lg-box__item--one-fifth {
+    @include desktop() {
+        width: calc(100%/5);
+    }
+}

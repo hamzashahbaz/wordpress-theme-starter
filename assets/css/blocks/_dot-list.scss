@@ -1,0 +1,32 @@
+.lg-determine-10__overview_listbox {
+    display: flex;
+    flex-direction: column;
+    @include desktop() {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.lg-determine-10__overview_listbox-title {
+    color:#7473DF;
+    text-align: left;
+    margin: 0 0 14px;
+    font-size: 1.1rem;
+    @include desktop() {
+        text-align: center;
+        font-size: 1.25rem;
+    }
+}
+.lg-determine-10__overview_list-item {
+    display: flex;
+    align-items: center;
+    color: #1C1C23;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0 0;
+    img {
+        margin-right: 10px;
+    }
+}

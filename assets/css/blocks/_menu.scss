@@ -1,0 +1,34 @@
+/* Style the navigation menu */
+.header__mobile-nav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+.header__mobile-nav {
+    display: none;
+    width: 100%;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 0;
+    top: 75px;
+    a {
+        color: black;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+        text-align: center;
+        &:hover {
+            color: $secondary !important;
+        }
+    }
+}
+.header__mobile-icon {
+    display: block;
+    width: 28px;
+    @include desktop() {
+        display: none;
+    }
+}

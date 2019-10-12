@@ -1,0 +1,8 @@
+# NPM #
+##########
+# Ignore all directories called node_modules in current folder and any subfolders.
+dist/
+/dist/
+node_modules/
+/node_modules/
+yarn.lock

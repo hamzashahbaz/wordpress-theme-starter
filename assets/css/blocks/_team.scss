@@ -1,0 +1,151 @@
+/****** Team ****/
+.lg__team {
+    background-color: #212134;
+    padding: 100px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    @include desktop() {
+        justify-content: center;
+        align-items: center;
+        padding: 175px 30px;
+    }
+}
+.lg__team_container {
+    width: 96%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @include desktop() {
+        width: 75%;
+    }
+}
+.lg__team_heart {
+    margin: 0 0 100px;
+    display: flex;
+    flex-direction: column;
+    @include desktop() {
+        justify-content: center;
+        align-items: center;
+    }
+}
+.lg__team_heart-img {
+    width: 36px;
+    margin: 0 0 18px;
+    @include desktop() {
+        width: 50px;
+    }
+}
+.lg__team_heart-title {
+    color: #FFFFFF;
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 16px 0 16px;
+    @include desktop() {
+        font-size: 56px;
+        margin: 10px 0 20px;
+    }
+}
+.lg__team_heart-description {
+    color: #B9B9B9;
+    font-size: 1rem;
+    margin: 0 0 24px;
+    text-align: left;
+    width: 100%;
+    @include desktop() {
+        font-size: 24px;
+        text-align: center;
+        width: 75%;
+        margin: 0 0 30px;
+    }
+}
+.lg__team_heart-link {
+    color: #7473DF;
+    text-decoration: none;
+    font-size: 1.1rem;
+    img {
+        width: 1.1rem;
+    }
+    @include desktop() {
+        font-size: 24px;
+        img {
+            width: 24px;
+        }
+    }
+}
+/**** members ***/
+.lg__team_items {
+    width: 96%;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    @include desktop() {
+        align-items: center;
+        flex-direction: row;
+        padding: 150px 0 100px;
+    }
+}
+.lg__team_item {
+    width: 100%;
+    @include desktop() {
+        width: 50%;
+    }
+}
+.lg__team_item-title {
+    color: #FFFFFF;
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 16px 0;
+    @include desktop() {
+        font-size: 56px;
+        margin: 10px 0 20px;
+    }
+}
+.lg__team_item-description {
+    color: #B9B9B9;
+    font-size: 1rem;
+    margin: 0 0 16px;
+    text-align: left;
+    width: 100%;
+    @include desktop() {
+        width: 75%;
+        font-size: 24px;
+    }
+}
+.lg__team_members {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+    margin: 36px 0 0;
+    @include desktop() {
+        width: 50%;
+    }
+}
+.lg__team_member {
+    position: relative;
+    width: 100%;
+    
+}
+.lg__team_member-img {
+    width: 100%;
+    background: $primary-gradient;
+    background-blend-mode: overlay;
+    @include desktop() {
+        width: 100%;
+    }
+}
+.lg__team_member-item {
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    font-size: 0.85rem;
+    @include desktop() {
+        bottom: 25px;
+        left: 25px;
+        font-size: 1rem;
+    }
+}

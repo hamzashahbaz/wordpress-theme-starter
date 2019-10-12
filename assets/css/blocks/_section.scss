@@ -1,0 +1,17 @@
+.lg-section {
+    background-color: white;
+    width: 100%;
+    padding: 100px 30px;
+    @include desktop() {
+        padding: 100px 0px;
+    }
+}
+.lg-section--primary {
+    background-color: #212134;
+}
+.lg-section--large {
+    padding: 125px 30px;
+    @include desktop() {
+        padding: 150px 0px;
+    }
+}

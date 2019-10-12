@@ -1,0 +1,30 @@
+.lg-grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @include desktop() {
+        width: 100%;
+        flex-direction: row;
+    }
+}
+.lg-grid--start {
+    align-items: flex-start;
+}
+.lg-grid__item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0 0 48px;
+    &:last-child {
+        margin: 0;
+    }
+    @include desktop() {
+        margin: 0;
+        width: 50%;
+        justify-content: center;
+    }
+}
+.lg-grid__item--less-margin {
+    margin: 0 0 24px !important;
+}

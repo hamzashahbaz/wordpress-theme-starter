@@ -1,0 +1,46 @@
+.lg-points {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.lg-points--horizontal {
+    flex-direction: column;
+    margin: 24px 0 0;
+    @include desktop() {
+        flex-direction: row;
+    }
+}
+.lg-points__item {
+    color: #FFFFFF;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    img {
+        width: 1rem;
+        margin-right: 16px;
+        @include desktop() {
+            width: 16px;
+        }
+    }
+}
+.lg-points__item--vertical {
+    margin: 0 0 36px;
+    &:last-child {
+        margin: 0;
+    }
+    @include desktop() {
+        margin: 0 0 36px;
+        &:last-child {
+            margin: 0;
+        }
+    }
+}
+.lg-points__item--horizontal {
+    margin: 0 0 24px;
+    &:last-child {
+        margin: 0;
+    }
+    @include desktop() {
+        margin: 0 36px 0 0;
+    }
+}

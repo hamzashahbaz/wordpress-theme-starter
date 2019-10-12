@@ -1,0 +1,52 @@
+{
+  "name": "labgenomic",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://hamzashahbaz@bitbucket.org/hamzashahbaz/labgenomic-wordpress-theme.git",
+  "author": "Hamza Shahbaz <hamzashahbaz@live.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "production": "cross-env NODE_ENV=production webpack && gulp zip"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.7.5",
+    "babel-core": "^6.23.1",
+    "babel-env": "^2.4.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.13.2",
+    "browser-sync": "^2.18.8",
+    "browser-sync-webpack-plugin": "^1.1.4",
+    "copy-webpack-plugin": "3.0.1",
+    "cross-env": "^3.1.4",
+    "css-loader": "^0.26.2",
+    "cssnano": "^3.10.0",
+    "extract-text-webpack-plugin": "^2.0.0",
+    "file-loader": "^4.2.0",
+    "glob": "^7.1.4",
+    "glob-all": "^3.1.0",
+    "gulp": "^4.0.2",
+    "gulp-zip": "^5.0.1",
+    "imagemin-webpack-plugin": "^2.4.2",
+    "img-loader": "^3.0.1",
+    "node-sass": "^4.5.0",
+    "optimize-css-assets-webpack-plugin": "^1.3.0",
+    "postcss-loader": "^1.3.2",
+    "purgecss-webpack-plugin": "^1.6.0",
+    "purgecss-with-wordpress": "^1.0.0",
+    "purify-css": "^1.2.5",
+    "purifycss-webpack": "^0.7.0",
+    "sass-loader": "^6.0.2",
+    "style-loader": "^0.13.2",
+    "uglify-js": "git://github.com/mishoo/UglifyJS2.git#harmony",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^2.2.1",
+    "webpack-zip-files-plugin": "^1.0.0",
+    "write-file-webpack-plugin": "^4.5.1"
+  },
+  "dependencies": {
+    "scrollreveal": "^4.0.5"
+  }
+}
