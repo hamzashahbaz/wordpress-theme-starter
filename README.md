@@ -1,5 +1,5 @@
 # Fold - Wordpress Theme Starter
-Wordpress Theme Starter build with modern workflow and tooling in mind.
+Wordpress theme starter build with modern workflow and tooling in mind.
 
 - 🥞 Versioned ✓
 - 🤠 Updatable ✓
