@@ -1,9 +1,9 @@
 {
-  "name": "labgenomic",
-  "version": "1.0.0",
+  "name": "unfold-theme",
+  "version": "0.0.1",
   "main": "index.js",
-  "repository": "https://hamzashahbaz@bitbucket.org/hamzashahbaz/labgenomic-wordpress-theme.git",
-  "author": "Hamza Shahbaz <hamzashahbaz@live.com>",
+  "repository": "https://github.com/hamzashahbaz/unfold.git",
+  "author": "Hamza Shahbaz",
   "license": "MIT",
   "scripts": {
     "build": "webpack",
